@@ -2,7 +2,6 @@
 $( document ).ready(function() {
     //setup our prefilter
     jQuery.ajaxPrefilter(function(options) {
-        alert(options.url);
         if (options.crossDomain && jQuery.support.cors) {
             options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
         }
