@@ -2,11 +2,10 @@
 $( document ).ready(function() {
     //setup our prefilter
     jQuery.ajaxPrefilter(function(options) {
-        if (options.crossDomain && jQuery.support.cors) {
-            options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
-        }
         if (options.url == document.location.origin + '/token') {
             options.url = 'https://open.spotify.com/token';
+        } else if (options.crossDomain && jQuery.support.cors) {
+            options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
         }
     });
     
