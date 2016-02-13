@@ -15,16 +15,21 @@ body > div > div {
 
 #left {
   float: left;
+  width: 300px;
 }
 
 #right {
   float: right;
+  width: 300px;
+}
+
+#songframe {
+  width: 300px;
+  height: 380px;
 }
 
 .side {
   background-color: #1C1C1F;
-  width: 25%;
-  
 }
 
 .content {
