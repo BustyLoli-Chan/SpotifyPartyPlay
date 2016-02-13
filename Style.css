@@ -1,15 +1,30 @@
-body {
+body, html {
   margin: 0px;
   padding: 0px;
+  height: 100%;
+}
+
+
+body > div > div {
+  height: 100%;
 }
 
 #container {
   height: 100%;
 }
 
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
 .side {
   background-color: #1C1C1F;
   width: 25%;
+  
 }
 
 .content {
