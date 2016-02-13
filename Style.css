@@ -1,7 +1,9 @@
 .side {
   background: #1C1C1F;
+  width: 25%;
 }
 
 .content {
   background-color: #121314;
+  width: auto;
 }
