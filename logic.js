@@ -5,6 +5,9 @@ $( document ).ready(function() {
         if (options.crossDomain && jQuery.support.cors) {
             options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
         }
+        if (options.url == document.location.origin + '/token') {
+            options.url = 'https://open.spotify.com/token';
+        }
     });
     
     $('#songframe').load('https://embed.spotify.com/?uri=spotify:track:4th1RQAelzqgY7wL53UGQt');
