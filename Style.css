@@ -3,12 +3,17 @@ body {
   padding: 0px;
 }
 
+#container {
+  height: 100%;
+}
+
 .side {
-  background: #1C1C1F;
+  background-color: #1C1C1F;
   width: 25%;
 }
 
 .content {
   background-color: #121314;
-  width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
