@@ -41,10 +41,8 @@ body > div > div {
 #song-search {
   font-weight: bold;
   font-size: 1.2em;
-  height: 55px;
-  line-height: 55px;
-  padding-left: 0.6em;
-  padding: 4px 0;
+  vertical-align: middle;
+  padding-left: 1em;
   list-style: none;
   background-color: #ffffff;
   border-color: #999999;
