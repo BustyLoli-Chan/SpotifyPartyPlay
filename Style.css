@@ -42,7 +42,7 @@ body > div > div {
   font-weight: bold;
   font-size: 1.2em;
   vertical-align: middle;
-  padding-left: 4px 1em;
+  padding: 4px 1em;
   list-style: none;
   background-color: #ffffff;
   border-color: #999999;
